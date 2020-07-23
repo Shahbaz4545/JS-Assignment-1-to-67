@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JS Assignment Chapter 1 to 67</title>
+</head>
+<body>
+    <h1>JavaScript Assignment</h1>
+    <!-- Chapter one -->
+    <!-- <button class="btn" onclick="showAlert()" Value="Checkbox">Show Alert</button> -->
+
+<p id="countries"></p>
+
+
+
+    <!-- ****** Chapter 43 to 48 ******-->
+    <!--  Task 01   Show an alert box on click on a link -->
+    <!-- <a href="#" onclick="boxShow()">Show Alert Box</a> -->
+
+    <!-- Task 02 Display some Mobile images in browser. On click on an image Show the message in alert to user. -->
+    <!-- <div>
+        <h1>Mobile Phones Lookup</h1>
+        <div class="card">
+            <img onclick="alert('Thanks for purchasing a phone from us')" class="images" src="https://i.gadgets360cdn.com/large/poco_x2_Front_ndtv_1580825988736.jpg?downsize=910:*&output-quality=80" alt="Mobile Phone">
+            <p onclick="alert('Thanks for purchasing a phone from us')" class="dis para">Poco X2  Rs.20000</p>
+        </div>
+        <div class="card">
+        <img onclick="alert('Thanks for purchasing a phone from us')" class="images" src="https://www.android.com/static/2016/img/one/carousel/nokia-9_1x.png" alt="Mobile Phone">
+        <p onclick="alert('Thanks for purchasing a phone from us')" class="dis para">nokia-9 Rs.20000</p>
+        </div>
+        <div class="card">
+        <img onclick="alert('Thanks for purchasing a phone from us')" class="images" src="https://www.android.com/static/2016/img/one/carousel/motorola_phones_1x.png" alt="Mobile Phone">
+        <p onclick="alert('Thanks for purchasing a phone from us')" class="dis para">Motorola Rs.20000</p>
+        </div>
+        <div onclick="alert('Thanks for purchasing a phone from us')" class="card">
+        <img onclick="alert('Thanks for purchasing a phone from us')" class="images" src="https://d11zer3aoz69xt.cloudfront.net/media/catalog/product/cache/1/image/1200x/9df78eab33525d08d6e5fb8d27136e95/s/a/samsung_galaxy_s6_edge_plus_32gb_gold_g928c__3.jpg" alt="Mobile Phone">
+        <p onclick="alert('Thanks for purchasing a phone from us')" class="dis para">samsung galaxy s6 edge Rs.20000</p>
+        </div>
+    </div> -->
+
+    <!-- Task 03 Display 10 student records in table and each row should contain a delete button. 
+    If you click on a button to delete a record, entire row should be deleted.   -->
+
+    <!-- <table id="stdTable">
+        <th colspan="2">Index Name Class</th>
+        <tr>
+            <td>1</td>
+            <td id="jhone">Jhone 10</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Doe 9</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mark 10</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>James 8</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>  
+            <td>5</td>
+            <td>Ghous 7</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Basit 6</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Majid 5</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Rizwan 4</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+            <tr>
+                <td>9</td>
+                <td>Kamran 3</td>
+                <td>
+                    <button onclick="Delete(this)">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ayan 2</td>
+                <td>
+                    <button onclick="Delete(this)">Delete</button>
+                </td>
+            </tr>
+    </table> -->
+
+    <!-- Task 04 Display an image in browser. Change the picture on mouseover and set the first picture on mouseout. -->
+
+    <!-- <div>
+        <img src="https://www.android.com/static/2016/img/one/carousel/motorola_phones_1x.png" onmouseover="src='https://www.android.com/static/2016/img/one/carousel/nokia-9_1x.png'"  onmouseout="src='https://www.android.com/static/2016/img/one/carousel/motorola_phones_1x.png'" alt="">
+    </div> -->
+
+    <!-- Task 05  Show a counter in browser. Counter should increase on click on increase button 
+    and decrease on click on decrease button. And show updated counter value in browser. -->
+        <!-- <div>
+            <p id="count"> Click: &nbsp; 0 </p>
+            <button id="count" onclick="Increase()">Click Me for Increase</button>
+            <button onclick="Decrease()">Click me for Decrease</button>
+        </div> -->
+
+      <!-- *********************** Chapter 49 to 52 ********************
+ Task 01 Create a signup form and display form data in your web page on submission. -->
+ <!-- <div class="signup" id="div">
+    <form action="">
+        <caption> <h1>SignUp</h1> </caption>
+        <br><br>
+        <fieldset>
+            
+            <label> Email: </label><br>
+            <input type="email" placeholder="Enter Email" name="Email" id="email"><br><br>
+            <label>Password: </label><br>
+            <input type="password" placeholder="Enter Password" name="Password" id="pass"><br><br>
+            <label>Re-Enter Password: </label><br>
+            <input type="password" placeholder="Re-Enter Password" name="" id="pass">
+            <button id="btn" onclick="signup(), document.getElementById('div').style.display='none'">Signup</button>
+        </fieldset>
+    </form>
+</div>      
+<h1 id="p1"> </h1> -->
+
+<!-- // Task 02 Suppose in your webpage there is content area in which you have entered your 
+item details, but user can only see some details on first look. When user clicks on
+“Read more” button, full detail of that particular item will be displayed. -->
+<!-- <div class="edhiSahabDiv">
+    <img class="edhiSahab" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Abdul_Sattar_Edhi.jpg" alt="">
+    <p id="para">Early life. Abdul Sattar Edhi was born on 28 July 1928 in Bantva, 
+    Gujarat, British India (present-day India) to a Memon family. When Edhi was....
+        <a href="javaScript:void(0);" onclick="readMore()">Read More</a>
+    </p>
+
+</div> -->
+
+<!-- Task 03 In previous assignment you have created a tabular data using javascript. 
+Let’s modify that. Create a form which takes student’s details and show each student 
+detail in table. Each row of table must contain a delete button and an edit button.
+On click on delete button entire row should be deleted. On click on edit button, a 
+hidden form will appear with the values of that row. -->
+<!-- <table id="stdTable">
+        <th colspan="2">Index Name Class</th>
+        <tr>
+            <td>1</td>
+            <td id="jhone">Jhone 10</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+            <td>
+                <button id="edit" onclick="Add(0)">Edit</button>
+            </td>
+            <td>
+                <button id="save" onclick="Save(this)">Save</button>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Doe 9</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mark 10</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>James 8</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>  
+            <td>5</td>
+            <td>Ghous 7</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>Basit 6</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>Majid 5</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>Rizwan 4</td>
+            <td>
+                <button onclick="Delete(this)">Delete</button>
+            </td>
+        </tr>
+            <tr>
+                <td>9</td>
+                <td>Kamran 3</td>
+                <td>
+                    <button onclick="Delete(this)">Delete</button>
+                </td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ayan 2</td>
+                <td>
+                    <button onclick="Delete(this)">Delete</button>
+                </td>
+            </tr>
+    </table> -->
+
+    <!-- <table id="table">
+        <tr id="myRow">
+            <td>First cell</td>
+            <td>Second cell</td>
+            <td>Third cell</td>
+        </tr>
+        </table>
+        <br>
+        <input type="text" id='inputone' />
+        <input type="text" id='inputtwo' />
+        <input type="text" id='inputthree' />
+        <button onclick="myFunction()">Add to table</button> -->
+
+          <!-- *********************** Chapter 23 to 57 ********************
+            // Task 01 Image Light box With Array
+            --->
+<!-- 
+            <div class="container">
+                <div class="row">
+                    <div class="gallery" id="gallery">
+                        <img onclick="lightBox()" src="images/1.jpg" alt="">
+                        <img onclick="lightBox()" src="images/2.jpg" alt="">
+                        <img onclick="lightBox()" src="images/3.jpg" alt="">
+                        <img onclick="lightBox()" src="images/4.jpg" alt="">
+                        <img onclick="lightBox()" src="images/5.jpg" alt="">
+                        <img onclick="lightBox()" src="images/6.jpg" alt="">
+                        <img onclick="lightBox()" src="images/7.png" alt="">
+                        <img onclick="lightBox()" src="images/8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+      
+            <div class="container">
+                <div id="model_gallery">
+                  <img id="model_img" src="images/1.jpg" alt="">
+                  <button class="prevbtn" onclick="previous_img()">Previous</button>
+                  <button class="nextbtn" onclick="next_img()">Next</button>
+                  <div id="close_btn" onclick="close_img_model()">
+                      <i></i>
+                      <i></i>
+                  </div>
+                </div>
+            </div> -->
+
+            <!-- Task 2
+  // Create a paragraph and two buttons “zoom in ”(+) and “zoom out”(-).
+  //  On each click on “zoom in”(+) , add 10px in font size of paragraph.
+  //  And on each click on “zoom out”(-) , minus 10px in font size of paragraph
+             -->
+
+
+
+             <!-- <div class="container">
+                <div class="row">
+                    <p id="para">
+                      Lorem ipsum dolor sit amet consectetur, 
+                      adipisicing elit. Tempora corporis quod 
+                      at quo eaque eveniet voluptatem nam aperiam
+                      exercitationem soluta laborum, provident sed
+                      otam amet asperiores maiores sit autem magnam
+                      pariatur optio a necessitatibus atque. Deleniti ea,
+                      vero quo repellat, delectus obcaecati, sed aperiam nihil omnis
+                      dignissimos harum consequuntur minima doloremque tenetur quos nobis
+                      voluptatem libero mollitia quam quasi illo doloribus! Itaque soluta delectus
+                      ullam ut quos laudantium minus at harum, laboriosam corrupti, perspiciatis
+                      provident laborum? Minima ex, quibusdam eaque eos odit doloremque beatae
+                      tempore veritatis ullam iste aliquam impedit architecto voluptatum aspernatur
+                      laborum consequuntur, reprehenderit expedita repudiandae. Quas, architecto.
+                      <br>
+                      <br>
+                  </p>
+                 
+                    <button class="button" onclick="incr_f_size()">Zoom In</button>
+                    <button class="button" onclick="dcr_f_size()">Zomm Out</button>
+                </div>
+            </div>
+      
+            <div>
+                <br> -->
+              
+ 
+        <!-- /************************* Chapter 58 to 67 **********************/
+        // Task 01 -->
+        <!-- <div>
+            <h1> DOM </h1>
+              <br>
+              <div id="form-content" class="content">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" />
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" />
+              <label for="email">Email</label>
+              <input type="text" id="emaill" />
+              </div>
+              <div id="main-content" class="content">
+              <p class=render> First Name : Sana</p>
+              <p class="render" id="lastName">Last Name: Bank</p>
+              <p class="render"> Email : sanabank@example.com</p>
+              <p class="render"> Country : Pakistan </p>
+              <p class="render"> contact : +92 300 12345897</p>
+              </div>
+              </div> -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
