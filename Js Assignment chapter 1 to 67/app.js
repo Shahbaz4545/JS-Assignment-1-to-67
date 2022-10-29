@@ -11,7 +11,7 @@ window.alert("Welcome to My Website");
 var a=prompt("Enter Your Password:");
 if (a=="shahbaz") 
     {
-    window.alert("You Type write Password");
+    window.alert("You Type Right Password");
     } else {
     window.alert("Error! Please Enter a Valid Password");
 }
